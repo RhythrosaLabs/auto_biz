@@ -1,5 +1,4 @@
 import streamlit as st
-import openai
 from typing import Dict, Any, List
 
 def get_section_from_llm(api_key: str, prompt: str) -> str:
